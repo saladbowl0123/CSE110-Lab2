@@ -4,7 +4,7 @@ public class Utilities {
     public static String trimDisplayStr(String displayStr) {
         // If the string does not contain a decimal point, don't do anything.
         if (!displayStr.contains(".")) {
-            return;
+            return displayStr;
         }
         // Trim off any extra "0s" at the end.
         var cleanedStr = displayStr;
